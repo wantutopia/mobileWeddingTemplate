@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="no-skrollr">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/wedding-bkdm/images/1.jpg">
+        <meta property="og:description" content="김**와 이**의 청첩장입니다.">
+        <title>D* & B*</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style type="text/css">
+            .background {
+                position: fixed;
+                width: 100%; 
+                max-width: 600px;
+                max-height: 100%;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .main_images {
+                position: fixed;
+                width: 100%;
+                max-width: 600px;
+                max-height: 100%;
+                margin: auto;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+
+            body {
+                max-width: 600px;
+                text-align: center;
+                margin: auto;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                max-width: 600px;
+            }
+
+            a:link { color: black; text-decoration: none;}
+            a:visited { color: black; text-decoration: none;}
+            a:hover { color: black; text-decoration: none;}
+
+        </style>
+    </head>
+    <body style="height: 5414px;">
+        <img class="background" src="images/text.png">
+        <div id="skrollr-body">
+            <div data-0="background-color:rgb(255, 236, 236);" data-600="background-color:rgb(255, 255, 255);">
+                <div style="height: 1000px; line-height: 600px;">
+                        <img class="blink" src="images/scroll_down.png" style="width: 60px; vertical-align: bottom;">
+                </div>
+            </div>
+
+            <div style="z-index:120; height: 600px;" data-200="position:fixed; top:0; right:0; opacity:0" 
+            data-700="position:fixed; top:0; right:0; opacity:1"
+            data-1700="position:fixed; top:0; left:0; opacity:0">
+                    <img src="images/line_all.png"></img>
+            </div>
+
+            <div style="z-index:120;  height: 600px;" data-400="position:fixed; top:500px; right:0; opacity:0" 
+            data-900="position:fixed; top:0; right:0; opacity:1"
+            data-1700="position:fixed; top:0; left:0; opacity:0">
+                <img src="images/circle_all.png"></img>
+            </div>
+
+            <div style="z-index:9999; background: white" 
+            data-800="z-index:9999; position:fixed; top:1000px; opacity:1" 
+            data-1700="z-index:9999; position:fixed; top:95px; opacity:1">
+                <img src="images/notice.png"></img>
+            </div>
+
+
+            
+            <div style="z-index: 999; background: white; margin: auto; width: 100%; max-width: 600px; padding-bottom: 50px; padding-top: 15px;" 
+            data-1700="z-index:9999; position:fixed; top:1000px; opacity:1"  
+            data-2600="z-index:9999; position:fixed; top:0px; opacity:1">
+                <p><h3 style="text-align: left; margin-left: 21px;">오시는 길</h3></p>                   
+                <!--
+                    * Daum 지도 - 약도서비스
+                    * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+                    * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+                -->
+                <!-- 1. 약도 노드 -->
+                <div id="daumRoughmapContainer1536567573195" class="root_daum_roughmap root_daum_roughmap_landing" style="margin: auto"></div>
+
+                <!-- 2. 설치 스크립트 -->
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1536567573195",
+                        "key" : "px4h",
+                        "mapWidth" : "340",
+                        "mapHeight" : "200"
+                    }).render();
+                </script>
+                <p style="text-align: left"><h5 style="text-align: left; margin-left: 21px;">셔틀버스 </h3>
+                    <h5 style="text-align: left; margin-left: 21px;">
+                        3,7,9호선 고속터미널역 <span style="color:red">6번 출구 앞</span><br>
+                        10~15분 간격으로 운행
+                    </h5>
+                </p>
+                <p style="text-align: left"><h5 style="text-align: left; margin-left: 21px;">자가용 </h3>
+                    <h5 style="text-align: left; margin-left: 21px;">
+                        반포대교가 아닌 잠수교를 이용하셔야<br>
+                        식장으로 진입가능합니다.
+                    </h5>
+                </p>
+            </div>
+
+            <div style="z-index:999; background: white; margin-top: 2500px" 
+                data-2600="z-index:9999; position:relative; opacity:1" 
+                data-3300="position:relative; opacity:1">
+                <p><h3 style="text-align: left; margin-left: 21px; padding-top: 20px">사진 보기</h3></p>
+                <img src="images/1.jpg"></img>
+                <img src="images/2.jpg"></img>
+                <img src="images/3.jpg"></img>
+                <img src="images/4.jpg"></img>
+                <!--
+                    이미지 계속 추가 가능
+                -->
+                
+                <p><h3 style="text-align: left; margin-left: 21px; padding-top: 20px">연락 하기</h3></p>
+                    <a href="tel:01012345678" style=" text-decoration:none;">
+                        <img src="images/call_bk.png" style="width: 85%; margin-top: 10px; margin-bottom: 10px">
+                    </a>
+                    <a href="tel:01012345678" style=" text-decoration:none;">
+                        <img src="images/call_dm.png" style="width: 85%; margin-bottom: 40px">    
+                    </a>
+            </div>
+
+       
+        </div>
+        <script type="text/javascript">
+            var s = skrollr.init({
+                forceHeight: false,
+                smoothScrollingDuration: 500,
+                mobileCheck: function(){
+                    if((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+                        // mobile device
+                    }
+                }
+            });
+
+            //메인화면 아래화살표 깜빡이
+            var element = $(".blink");
+            var shown = true;
+            setInterval(toggle, 1500);
+            function toggle() {
+            if(shown) {
+                shown = false;
+                element.animate({
+                opacity: 0,
+                }, 1500 );
+            } else {
+                shown = true;
+                element.animate({
+                opacity: 1,
+                }, 1500 );
+            }
+            }
+        </script>
+    </body>
+</html>
